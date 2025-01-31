@@ -1,0 +1,1 @@
+my @array = (1, 2, 3);my $element = defined $array[3] ? $array[3] : 'Index out of bounds'; # Check if index is valid before accessingprint "Element at index 3: $element\n"; 
